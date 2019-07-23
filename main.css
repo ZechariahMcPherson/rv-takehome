@@ -1,0 +1,79 @@
+.page {
+  margin: 40px;
+  background-color: #fff;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  border-bottom: 2px solid #eee;
+  font-size: 22px;
+}
+
+.chat-room-text {
+  font-size: 22px;
+}
+
+.conversation-date {
+  align-self: center;
+  color: #aeaeae;
+}
+
+.message-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+.photo-div {
+  display: flex;
+  flex: 0;
+  align-items: center;
+}
+
+.user-photo {
+  border-radius: 50%;
+  height: 30px;
+}
+
+.message {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  background-color: #f3f3f3;
+  margin: 0 20px;
+  padding: 5px 15px;
+  border-radius: 12px;
+}
+
+.message-footer {
+  display: flex;
+  align-items: center;
+}
+
+.current-user-message {
+  flex-direction: row-reverse;
+}
+
+.focused-message {
+  background-color: #fff;
+
+  /* taken from https://www.w3schools.com/css/css3_shadows.asp */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.username {
+  color: #fe5c5d;
+  margin: 0 15px 0 0;
+}
+
+.current-user-username {
+  color: #7ab2ff;
+}
+
+.message-timestamp {
+  margin: 0 5px;
+  font-size: 13px;
+}

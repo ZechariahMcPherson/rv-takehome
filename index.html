@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Message board</title>
+
+    <meta name="description" content="Chat room site." />
+
+    <meta
+      name="keywords"
+      content="Chat, Chat Room, Messages, Text, Form, Message Board"
+    />
+
+    <link rel="stylesheet" href="./main.css" />
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <div class="page">
+      <div class="header">
+        <div>
+          <h1 class="chat-room-text">
+            Chat Transcript
+          </h1>
+        </div>
+        <div>
+          <!-- id and class are the same name. I only want to access strictly 
+            via id to ensure I get the correct element. -->
+          <span id="conversation-date" class="conversation-date">
+            <!-- will contain the date of the conversation retrieved from the api -->
+          </span>
+        </div>
+      </div>
+
+      <div id="message-container">
+        <!-- dynamically generated messages will appear here -->
+      </div>
+    </div>
+  </body>
+</html>
